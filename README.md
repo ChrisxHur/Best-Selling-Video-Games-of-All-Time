@@ -93,3 +93,9 @@ Results are shown here:
 
 ![top_publishers](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/8d2750ee-4ec5-482f-b380-3e3229e87d6b)
 
+
+### Results and Findings
+1. Minecraft remains the top selling video game of all time, far exceding the previous title (GTA 5) by over 60 million copies sold
+2. Titles released in multi-platforms generally see the most success in video game copies sold. When it comes to indivdual platforms,
+wii seems to have the most games sold. If you want to maximize the amount of sales, it is best to release titles for multiple platforms.
+3. Nintendo is by far the publisher with the highest amount of total sales, followed by Rockstar Games, and then Xbox Game Studios.
