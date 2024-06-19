@@ -41,4 +41,22 @@ But it is always good to make sure.
 - handling missing values
   There are some missing values; however, we will not be using those specific values for this analysis
 
+### Exploratory Data Analysis
+Exploring the data to answer a few key questions:
+- What are the most sold video games of all time
+- What platform has to most sales? Does multi-platform contribute to higher sales?
+- Which publisher has the most success in video games sales?
+- over time, which publisher has had the most success?
+
+### Data Analysis
+
+To find the top 10 highest sold video games by copies sold:
+
+```
+SELECT *
+FROM best_selling_video_games.game_data
+ORDER BY sales DESC
+LIMIT 10;```
+
+
   
