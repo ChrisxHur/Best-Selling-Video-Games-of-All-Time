@@ -56,7 +56,8 @@ To find the top 10 highest sold video games by copies sold:
 SELECT *
 FROM best_selling_video_games.game_data
 ORDER BY sales DESC
-LIMIT 10;```
+LIMIT 10;
+```
 
-
-  
+Results are shown here:
+![top10_games_sold](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/daf40832-5a62-4b90-9921-3b816c5633cf)
