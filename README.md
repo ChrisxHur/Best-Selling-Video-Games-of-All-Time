@@ -76,3 +76,17 @@ ORDER BY total_sales DESC;
 Results are shown here:
 ![top_platform_sales](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/f8657c2c-981f-4a21-b778-3eabf44a59cc)
 
+Lastly, we find the top publishers by total sales:
+
+```
+SELECT
+  publisher,
+  SUM(sales) AS total_sales
+FROM best_selling_video_games.game_data
+GROUP BY publisher
+ORDER BY total_sales DESC;
+```
+
+Results are shown here:
+
+
