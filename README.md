@@ -19,6 +19,7 @@ In preparing for data for analysis, these are the preparations to get the data r
 - Data loading and inspection
 - Check for duplicate entries using a CTE SQL query:
 
+```
 WITH duplicate_CTE AS
 (
 SELECT *,
@@ -30,6 +31,14 @@ FROM best_selling_video_games.game_data
 SELECT *
 FROM duplicate_CTE
 WHERE row_num > 1;
+```
 
 This resulted in finding 0 duplicate entries. Considering this was from kaggle, the data set was probably already cleaned.
 But it is always good to make sure.
+
+- Data cleaning and formatting
+  formatting and spacing seems to be good using SELECT DISTINCT queries and observing the dataset
+- handling missing values
+  There are some missing values; however, we will not be using those specific values for this analysis
+
+  
