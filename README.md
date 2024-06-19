@@ -60,6 +60,7 @@ LIMIT 10;
 ```
 
 Results are shown here:
+
 ![top10_games_sold](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/daf40832-5a62-4b90-9921-3b816c5633cf)
 
 To find the top platforms by total sales:
@@ -74,6 +75,7 @@ ORDER BY total_sales DESC;
 ```
 
 Results are shown here:
+
 ![top_platform_sales](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/f8657c2c-981f-4a21-b778-3eabf44a59cc)
 
 Lastly, we find the top publishers by total sales:
@@ -89,4 +91,5 @@ ORDER BY total_sales DESC;
 
 Results are shown here:
 
+![top_publishers](https://github.com/ChrisxHur/Best-Selling-Video-Games-of-All-Time/assets/173302585/8d2750ee-4ec5-482f-b380-3e3229e87d6b)
 
